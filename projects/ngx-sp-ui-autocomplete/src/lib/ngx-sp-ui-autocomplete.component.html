@@ -1,0 +1,8 @@
+<div class="autocomplete">
+  <input
+    #autocompleteinput
+    type="text"
+    [name]="autoCompleteItemName"
+    [placeholder]="autoCompleteItemPlaceholder"
+    (input)="filterItems($event)">
+</div>
